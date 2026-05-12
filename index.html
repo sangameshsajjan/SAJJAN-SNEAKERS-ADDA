@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAJJAN SNEAKERS ADDA</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">SAJJAN SNEAKERS ADDA</div>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button">
+          Dark mode
+        </button>
+        <form id="search-form" class="search-wrap">
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Search products..."
+          />
+          <button id="search-button" type="submit" class="btn btn-secondary">
+            Search
+          </button>
+        </form>
+        <nav class="site-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="../AddToCart/AddToCart.html" class="nav-link"
+            >Cart <span id="cart-count">0</span></a
+          >
+          <a href="../AddToWishList/AddToWishList.html" class="nav-link"
+            >Wishlist <span id="wishlist-count">0</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">Fresh drops</span>
+          <h1>SAJJAN SNEAKERS ADDA</h1>
+          <p>
+            Browse top sneaker styles, add favorites to your wishlist, and save
+            the best pairs to your cart.
+          </p>
+          <a href="#products" class="btn btn-primary">Shop Sneakers</a>
+        </div>
+        <div class="hero-image">
+          <img src="/data/7529.jpg" alt="Sneaker" />
+        </div>
+      </section>
+
+      <section id="products" class="products-section">
+        <div class="section-title">
+          <h2>Featured Sneakers</h2>
+          <p>Easy selection, clean design, and fast shopping.</p>
+        </div>
+        <div id="product-grid" class="product-grid"></div>
+        <div class="pagination-row">
+          <div id="page-info" class="page-info"></div>
+          <div id="pagination" class="pagination"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../theme.js"></script>
+    <script src="landing.js"></script>
+  </body>
+</html>

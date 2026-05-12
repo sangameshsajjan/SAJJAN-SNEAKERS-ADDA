@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="BuyPage.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">Sneaker Hub</div>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button">
+          Dark mode
+        </button>
+        <nav class="site-nav">
+          <a href="../landingWebpage/index.html" class="nav-link">Home</a>
+          <a href="../AddToCart/AddToCart.html" class="nav-link"
+            >Cart <span id="cart-count">0</span></a
+          >
+          <a href="../AddToWishList/AddToWishList.html" class="nav-link"
+            >Wishlist <span id="wishlist-count">0</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="checkout-section">
+        <h1>Checkout</h1>
+        <div id="checkout-summary" class="checkout-summary"></div>
+      </section>
+    </main>
+
+    <script src="../theme.js"></script>
+    <script src="BuyPage.js"></script>
+  </body>
+</html>

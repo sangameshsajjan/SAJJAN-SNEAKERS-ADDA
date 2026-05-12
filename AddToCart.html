@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="AddToCart.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">Sneaker Hub</div>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button">
+          Dark mode
+        </button>
+        <nav class="site-nav">
+          <a href="../landingWebpage/index.html" class="nav-link">Home</a>
+          <a href="AddToCart.html" class="nav-link"
+            >Cart <span id="cart-count">0</span></a
+          >
+          <a href="../AddToWishList/AddToWishList.html" class="nav-link"
+            >Wishlist <span id="wishlist-count">0</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="cart-section">
+        <h1>Your Cart</h1>
+        <div id="cart-items" class="cart-items"></div>
+        <div id="cart-summary" class="cart-summary"></div>
+      </section>
+    </main>
+
+    <script src="../theme.js"></script>
+    <script src="AddToCart.js"></script>
+  </body>
+</html>

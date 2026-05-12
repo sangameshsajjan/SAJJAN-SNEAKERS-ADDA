@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="AddToWishList.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">Sneaker Hub</div>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button">
+          Dark mode
+        </button>
+        <nav class="site-nav">
+          <a href="../landingWebpage/index.html" class="nav-link">Home</a>
+          <a href="../AddToCart/AddToCart.html" class="nav-link"
+            >Cart <span id="cart-count">0</span></a
+          >
+          <a href="AddToWishList.html" class="nav-link"
+            >Wishlist <span id="wishlist-count">0</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="wishlist-section">
+        <h1>Your Wishlist</h1>
+        <div id="wishlist-items" class="wishlist-items"></div>
+      </section>
+    </main>
+
+    <script src="../theme.js"></script>
+    <script src="AddToWishList.js"></script>
+  </body>
+</html>
